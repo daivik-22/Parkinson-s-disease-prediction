@@ -1,4 +1,4 @@
-# Parkinson's-disease-prediction
+# Parkinson's disease prediction
 A Machine Learning Project for Parkinson's disease prediction using Logistic Regression
 
 This repository contains a machine learning project for predicting Parkinson's disease using logistic regression. The model analyzes various biomedical voice measurements to predict whether a person has Parkinson's disease.
