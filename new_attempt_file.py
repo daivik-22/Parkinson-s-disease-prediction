@@ -1,5 +1,7 @@
-# parkinsons_prediction.ipynb
-# Import necessary libraries
+'''
+parkinsons_prediction.ipynb
+Import necessary libraries
+'''
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -13,11 +15,12 @@ import seaborn as sns
 # --- 1. Data Loading and Initial Exploration ---
 
 print("--- Data Loading and Initial Exploration ---")
-
-# Define the path to your dataset.
-# IMPORTANT: In a real Jupyter environment, you might upload the CSV file
-# or ensure it's in the same directory as this notebook.
-# For demonstration, we'll assume 'parkinsons.data' is available.
+'''
+ Define the path to your dataset.
+ IMPORTANT: In a real Jupyter environment, you might upload the CSV file
+ or ensure it's in the same directory as this notebook.
+ For demonstration, we'll assume 'parkinsons.data' is available.
+'''
 try:
     df = pd.read_csv('parkinsons.data')
     print("Dataset loaded successfully.")
@@ -166,9 +169,11 @@ print("\n--- Dimensionality Reduction with PCA for Visualization ---")
 # Initialize PCA to reduce to 2 components for visualization
 pca = PCA(n_components=2)
 
-# Fit PCA on the scaled training data and transform both training and testing data
-# For visualization, we'll transform the entire scaled dataset (X_scaled)
-# to see the overall distribution in 2D.
+'''
+ Fit PCA on the scaled training data and transform both training and testing data
+ For visualization, we'll transform the entire scaled dataset (X_scaled)
+ to see the overall distribution in 2D.
+'''
 X_scaled_full = scaler.transform(X) # Scale the full dataset for PCA visualization
 X_pca = pca.fit_transform(X_scaled_full)
 
