@@ -247,6 +247,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - Little, M.A., McSharry, P.E., Roberts, S.J., Costello, D.A., Moroz, I.M. (2007). *Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection*, Nature Precedings.
 - Sakar, C.O., Serbes, G., Gunduz, A., Tunc, H.C., Nizam, H., Sakar, B.E., Tutuncu, M., Aydin, T., Isenkul, M.E., Apaydin, H. (2019). *A comparative analysis of speech signal processing algorithms for Parkinson's disease classification and the use of the tunable Q-factor wavelet transform*, Applied Soft Computing.
 
-⭐ **Star this repository if it helped you!** ⭐
+## ⭐ **Star this repository if it helped you!** ⭐
 
 *Made with ❤️ for advancing Parkinson's disease research and early detection.*
