@@ -1,3 +1,5 @@
+# Parkinson's diesease Prediction
+# A Machine Learning mini Project 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -7,6 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
+# Class: Parkinson's Predictor
 class ParkinsonsPredictor:
     def __init__(self):
         self.model = None
